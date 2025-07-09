@@ -1,8 +1,11 @@
 import React from 'react';
 import { ArrowRight, Play } from 'lucide-react';
 import BlockchainCube from './BlockchainCube';
+import VideoModal from './VideoModal';
 
 const Hero = () => {
+  const [isVideoModalOpen, setIsVideoModalOpen] = React.useState(false);
+
   return (
     <section className="relative min-h-screen bg-slate-900 overflow-hidden">
       {/* Background Elements */}
@@ -40,7 +43,10 @@ const Hero = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
               
-              <button className="group border border-slate-600 text-slate-300 px-8 py-4 rounded-lg font-medium hover:border-purple-400 hover:text-purple-400 transition-all duration-200 flex items-center justify-center space-x-2">
+              <button 
+                onClick={() => setIsVideoModalOpen(true)}
+                className="group border border-slate-600 text-slate-300 px-8 py-4 rounded-lg font-medium hover:border-purple-400 hover:text-purple-400 transition-all duration-200 flex items-center justify-center space-x-2"
+              >
                 <Play className="w-5 h-5" />
                 <span>Watch Demo</span>
               </button>
@@ -73,6 +79,12 @@ const Hero = () => {
           </div>
         </div>
       </div>
+
+      {/* Video Modal */}
+      <VideoModal 
+        isOpen={isVideoModalOpen} 
+        onClose={() => setIsVideoModalOpen(false)} 
+      />
     </section>
   )
 };
