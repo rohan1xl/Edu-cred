@@ -151,7 +151,7 @@ const UserCredentials = () => {
                 <div className="flex items-center space-x-2">
                   <button
                     onClick={() => downloadCertificate(credential)}
-                    className="flex-1 bg-purple-500/20 hover:bg-purple-500/30 text-purple-400 px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center justify-center space-x-1"
+                    className="flex-1 bg-yellow-500/20 hover:bg-yellow-500/30 text-yellow-400 px-3 py-2 rounded-lg text-sm font-medium transition-colors flex items-center justify-center space-x-1"
                   >
                     <Eye className="w-4 h-4" />
                     <span>View</span>
@@ -174,7 +174,7 @@ const UserCredentials = () => {
                       href={`https://etherscan.io/tx/${credential.transactionHash}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center space-x-1 hover:text-purple-400 transition-colors"
+                      className="flex items-center space-x-1 hover:text-yellow-400 transition-colors"
                     >
                       <ExternalLink className="w-3 h-3" />
                       <span>Blockchain</span>

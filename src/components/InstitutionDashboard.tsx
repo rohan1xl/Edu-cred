@@ -211,7 +211,7 @@ const InstitutionDashboard = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-lg font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-200 shadow-lg hover:shadow-purple-500/25 disabled:opacity-50 flex items-center justify-center space-x-2"
+              className="w-full bg-gradient-to-r from-yellow-500 to-yellow-600 text-black px-8 py-4 rounded-lg font-medium hover:from-yellow-600 hover:to-yellow-700 transition-all duration-200 shadow-lg hover:shadow-yellow-500/25 disabled:opacity-50 flex items-center justify-center space-x-2"
             >
               {loading ? (
                 <>
@@ -253,7 +253,7 @@ const InstitutionDashboard = () => {
                         href={getExplorerUrl(result.txHash)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center space-x-2 text-purple-400 hover:text-purple-300 transition-colors text-sm"
+                        className="inline-flex items-center space-x-2 text-yellow-400 hover:text-yellow-300 transition-colors text-sm"
                       >
                         <span>View on Blockchain Explorer</span>
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -38,7 +38,7 @@ const WalletConnect = () => {
             <span>{address.slice(0, 6)}...{address.slice(-4)}</span>
             <button
               onClick={copyAddress}
-              className="text-slate-400 hover:text-purple-400 transition-colors"
+              className="text-slate-400 hover:text-yellow-400 transition-colors"
               title="Copy address"
             >
               <Copy className="w-3 h-3" />
@@ -47,7 +47,7 @@ const WalletConnect = () => {
               href={`https://etherscan.io/address/${address}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-400 hover:text-purple-400 transition-colors"
+              className="text-slate-400 hover:text-yellow-400 transition-colors"
               title="View on Etherscan"
             >
               <ExternalLink className="w-3 h-3" />
@@ -59,7 +59,7 @@ const WalletConnect = () => {
         </div>
         <button
           onClick={() => disconnect()}
-          className="flex items-center space-x-2 bg-slate-800 border border-slate-600 text-slate-300 px-4 py-2 rounded-lg hover:border-red-500 hover:text-red-400 transition-all duration-200"
+          className="flex items-center space-x-2 bg-slate-800 border border-slate-600 text-slate-300 px-4 py-2 rounded-lg hover:border-yellow-500 hover:text-yellow-400 transition-all duration-200"
         >
           <LogOut className="w-4 h-4" />
           <span className="hidden md:inline">Disconnect</span>
@@ -72,11 +72,11 @@ const WalletConnect = () => {
     <button
       onClick={handleConnect}
       disabled={isPending}
-      className="flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-lg font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-200 shadow-lg hover:shadow-purple-500/25 disabled:opacity-50"
+      className="flex items-center space-x-2 bg-gradient-to-r from-yellow-500 to-yellow-600 text-black px-6 py-2 rounded-lg font-medium hover:from-yellow-600 hover:to-yellow-700 transition-all duration-200 shadow-lg hover:shadow-yellow-500/25 disabled:opacity-50"
     >
       {isPending ? (
         <>
-          <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+          <div className="w-4 h-4 border-2 border-black border-t-transparent rounded-full animate-spin"></div>
           <span>Connecting...</span>
         </>
       ) : (

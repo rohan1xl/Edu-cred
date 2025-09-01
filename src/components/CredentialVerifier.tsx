@@ -81,7 +81,7 @@ const CredentialVerifier = () => {
               <button
                 type="submit"
                 disabled={loading || !tokenId.trim()}
-                className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-3 rounded-lg font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-200 shadow-lg hover:shadow-purple-500/25 disabled:opacity-50 flex items-center space-x-2"
+                className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-black px-8 py-3 rounded-lg font-medium hover:from-yellow-600 hover:to-yellow-700 transition-all duration-200 shadow-lg hover:shadow-yellow-500/25 disabled:opacity-50 flex items-center space-x-2"
               >
                 {loading ? (
                   <Loader className="w-5 h-5 animate-spin" />
@@ -142,7 +142,7 @@ const CredentialVerifier = () => {
                       href={ipfsService.getFileUrl(verificationResult.credential.ipfsHash)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center space-x-2 text-purple-400 hover:text-purple-300 transition-colors bg-purple-500/10 px-3 py-2 rounded-lg"
+                      className="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300 transition-colors bg-yellow-500/10 px-3 py-2 rounded-lg"
                     >
                       <ExternalLink className="w-4 h-4" />
                       <span>View Certificate</span>
@@ -152,7 +152,7 @@ const CredentialVerifier = () => {
                         href={getExplorerUrl(verificationResult.credential.transactionHash)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center space-x-2 text-purple-400 hover:text-purple-300 transition-colors bg-purple-500/10 px-3 py-2 rounded-lg"
+                        className="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300 transition-colors bg-yellow-500/10 px-3 py-2 rounded-lg"
                       >
                         <ExternalLink className="w-4 h-4" />
                         <span>View on Blockchain</span>

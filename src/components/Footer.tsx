@@ -35,11 +35,11 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-slate-400 hover:text-purple-400 transition-colors">Home</a></li>
-              <li><a href="#features" className="text-slate-400 hover:text-purple-400 transition-colors">Features</a></li>
-              <li><a href="#how-it-works" className="text-slate-400 hover:text-purple-400 transition-colors">How It Works</a></li>
-              <li><a href="#faq" className="text-slate-400 hover:text-purple-400 transition-colors">FAQ</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-purple-400 transition-colors">Verify</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-yellow-400 transition-colors">Home</a></li>
+              <li><a href="#features" className="text-slate-400 hover:text-yellow-400 transition-colors">Features</a></li>
+              <li><a href="#how-it-works" className="text-slate-400 hover:text-yellow-400 transition-colors">How It Works</a></li>
+              <li><a href="#faq" className="text-slate-400 hover:text-yellow-400 transition-colors">FAQ</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-yellow-400 transition-colors">Verify</a></li>
             </ul>
           </div>
 
@@ -47,10 +47,10 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><a href="#institutions" className="text-slate-400 hover:text-purple-400 transition-colors">For Institutions</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-purple-400 transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-purple-400 transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-purple-400 transition-colors">Contact</a></li>
+              <li><a href="#institutions" className="text-slate-400 hover:text-yellow-400 transition-colors">For Institutions</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-yellow-400 transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-yellow-400 transition-colors">Terms of Service</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-yellow-400 transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -66,7 +66,7 @@ const Footer = () => {
                 placeholder="Enter your email"
                 className="flex-1 bg-slate-800 border border-slate-700 rounded-l-lg px-4 py-2 text-white placeholder-slate-400 focus:outline-none focus:border-purple-500"
               />
-              <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-r-lg hover:from-purple-600 hover:to-pink-600 transition-all duration-200">
+              <button className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-black px-4 py-2 rounded-r-lg hover:from-yellow-600 hover:to-yellow-700 transition-all duration-200">
                 Subscribe
               </button>
             </div>

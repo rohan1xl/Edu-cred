@@ -38,14 +38,14 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#credential-verifier" className="group bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-lg font-medium hover:from-purple-600 hover:to-pink-600 transition-all duration-200 shadow-lg hover:shadow-purple-500/25 flex items-center justify-center space-x-2">
+              <a href="#credential-verifier" className="group bg-gradient-to-r from-yellow-500 to-yellow-600 text-black px-8 py-4 rounded-lg font-medium hover:from-yellow-600 hover:to-yellow-700 transition-all duration-200 shadow-lg hover:shadow-yellow-500/25 flex items-center justify-center space-x-2">
                 <span>Verify a Credential Now</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
               
               <button 
                 onClick={() => setIsVideoModalOpen(true)}
-                className="group border border-slate-600 text-slate-300 px-8 py-4 rounded-lg font-medium hover:border-purple-400 hover:text-purple-400 transition-all duration-200 flex items-center justify-center space-x-2"
+                className="group border border-slate-600 text-slate-300 px-8 py-4 rounded-lg font-medium hover:border-yellow-400 hover:text-yellow-400 transition-all duration-200 flex items-center justify-center space-x-2"
               >
                 <Play className="w-5 h-5" />
                 <span>Watch Demo</span>

@@ -20,10 +20,10 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-slate-300 hover:text-purple-400 transition-colors">Features</a>
-            <a href="#how-it-works" className="text-slate-300 hover:text-purple-400 transition-colors">How It Works</a>
-            <a href="#institutions" className="text-slate-300 hover:text-purple-400 transition-colors">For Institutions</a>
-            <a href="#faq" className="text-slate-300 hover:text-purple-400 transition-colors">FAQ</a>
+            <a href="#features" className="text-slate-300 hover:text-yellow-400 transition-colors">Features</a>
+            <a href="#how-it-works" className="text-slate-300 hover:text-yellow-400 transition-colors">How It Works</a>
+            <a href="#institutions" className="text-slate-300 hover:text-yellow-400 transition-colors">For Institutions</a>
+            <a href="#faq" className="text-slate-300 hover:text-yellow-400 transition-colors">FAQ</a>
           </nav>
 
           {/* CTA Button */}
@@ -44,10 +44,10 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-slate-800">
             <nav className="flex flex-col space-y-4">
-              <a href="#features" className="text-slate-300 hover:text-purple-400 transition-colors">Features</a>
-              <a href="#how-it-works" className="text-slate-300 hover:text-purple-400 transition-colors">How It Works</a>
-              <a href="#institutions" className="text-slate-300 hover:text-purple-400 transition-colors">For Institutions</a>
-              <a href="#faq" className="text-slate-300 hover:text-purple-400 transition-colors">FAQ</a>
+              <a href="#features" className="text-slate-300 hover:text-yellow-400 transition-colors">Features</a>
+              <a href="#how-it-works" className="text-slate-300 hover:text-yellow-400 transition-colors">How It Works</a>
+              <a href="#institutions" className="text-slate-300 hover:text-yellow-400 transition-colors">For Institutions</a>
+              <a href="#faq" className="text-slate-300 hover:text-yellow-400 transition-colors">FAQ</a>
               <div className="pt-4">
                 <WalletConnect />
               </div>

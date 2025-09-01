@@ -74,7 +74,7 @@ const FAQ = () => {
 
         <div className="text-center mt-12">
           <p className="text-slate-400 mb-4">Still have questions?</p>
-          <button className="text-purple-400 hover:text-purple-300 font-medium transition-colors">
+          <button className="text-yellow-400 hover:text-yellow-300 font-medium transition-colors">
             Contact our support team →
           </button>
         </div>
